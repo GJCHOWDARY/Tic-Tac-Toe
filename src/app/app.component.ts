@@ -55,7 +55,7 @@ export class AppComponent implements OnInit {
       if (this.winner) {
         this.newGame();
         setTimeout(() => {
-          this.winner = '--o--';
+          this.winner = '';
         }, 5000)
       }
       console.log(this.winner, "winner...");
